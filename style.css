@@ -161,3 +161,88 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* =====================
+   Dark Mode
+   ===================== */
+
+body.dark-mode {
+    background-color: #1f2937;
+    color: #f4f4f5;
+}
+
+.dark-mode .cartao-login {
+    background-color: #374151;
+    border-color: #9ca3af;
+    box-shadow: 6px 6px 0px #9ca3af;
+}
+
+.dark-mode .cabecalho-login h1 {
+    color: #f4f4f5;
+}
+
+.dark-mode .cabecalho-login p {
+    color: #d1d5db;
+}
+
+.dark-mode .item-formulario label {
+    color: #d1d5db;
+}
+
+.dark-mode .item-formulario input {
+    background-color: #4b5563;
+    border-color: #9ca3af;
+    color: #f4f4f5;
+}
+
+.dark-mode .item-formulario input::placeholder {
+    color: #9ca3af;
+}
+
+.dark-mode .btn {
+    background-color: #8b5cf6;
+    border-color: #9ca3af;
+    box-shadow: 4px 4px 0px #9ca3af;
+    color: #f4f4f5;
+}
+
+.dark-mode .btn:hover {
+    box-shadow: 2px 2px 0px #9ca3af;
+}
+
+.dark-mode .divider {
+    color: #9ca3af;
+}
+
+.dark-mode .divider::before, .dark-mode .divider::after {
+    background-color: #4b5563;
+}
+
+.dark-mode .btn-criarConta {
+    background-color: #374151;
+    border-color: #9ca3af;
+    color: #f4f4f5;
+}
+
+.dark-mode .btn-criarConta:hover {
+    background-color: #4b5563;
+}
+
+.dark-mode .link-criarConta {
+    color: #f4f4f5;
+}
+
+#darkmodeID {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: 2px solid #18181b;
+    border-radius: 0.5rem;
+    box-shadow: 4px 4px 0px #18181b;
+    background-color: #a78bfa;
+    color: #18181b;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}

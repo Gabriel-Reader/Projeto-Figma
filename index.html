@@ -6,12 +6,14 @@
     <title>Página de Login</title>
     <meta name="description" content="Tela de Login"/>
     <link rel="stylesheet" rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
     <!-- <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/favicon.png') }}"> -->
 </head>
 
 <body>
 
     <div class="login-container">
+        <button id="darkmodeID">Alternar Modo</button>
         <div class="cartao-login">
             
             <div class="cabecalho-login">
@@ -19,7 +21,7 @@
                 <p>Entre com suas credenciais para acessar sua conta</p>
 
                     <ul class="ul-flashed-messages">
-                        <li class="mensagem-validacao">mensagem erro</li>
+                        <li class="mensagem-validacao">mensagem de erro aqui</li>
                     </ul>
             </div>
 
@@ -34,7 +36,7 @@
                     <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
                 </div>  
 
-                <button type="submit" class="btn">
+                <button type="submit" class="btn" id="btnEntrar">
                     Entrar
                 </button>
 
@@ -45,7 +47,7 @@
             </div>
 
             <button type="button" class="btn btn-criarConta" id="criarConta">
-                <a href="MUDAR PARA A PÁGINA DE CRIAR CONTA" class="link-criarConta">Criar conta</a>
+                Criar conta
             </button>
 
 </body>

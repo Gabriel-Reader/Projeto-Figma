@@ -15,26 +15,26 @@
     <div class="login-container">
         <button id="darkmodeID">Alternar Modo</button>
         <div class="cartao-login">
-            
+
             <div class="cabecalho-login">
                 <h1>Bem-vindo de volta</h1>
                 <p>Entre com suas credenciais para acessar sua conta</p>
 
-                    <ul class="ul-flashed-messages">
-                        <li class="mensagem-validacao">mensagem de erro aqui</li>
-                    </ul>
+                <ul class="ul-flashed-messages" style="display: none;">
+                    <li class="mensagem-validacao"></li>
+                </ul>
             </div>
 
             <form id="loginFormulario" class="login-formulario" autocomplete="off" method="POST">
                 <div class="item-formulario">
                     <label for="usuario">Nome de usuário</label>
                     <input type="text" id="usuario" name="usuario" placeholder="Digite o seu nome de usuário" required>
-                </div>  
+                </div>
 
                 <div class="item-formulario">
                     <label for="senha">Senha</label>
                     <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
-                </div>  
+                </div>
 
                 <button type="submit" class="btn" id="btnEntrar">
                     Entrar
